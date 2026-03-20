@@ -2,7 +2,7 @@ import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
-import Studentdata from "./pages/Studentdata";
+import Students from "./pages/Students";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Notfound from "./pages/Notfound";
@@ -17,7 +17,7 @@ function App() {
 
         {
           path: "/student",
-          element: <Studentdata />,
+          element: <Students />,
         },
 
         {
