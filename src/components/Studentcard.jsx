@@ -5,7 +5,7 @@ const Studentcard = (props) => {
 
   return (
     <>
-      <div className="bg-white p-6 m-6 w-80 rounded-xl shadow-md border border-gray-4x00 hover:shadow-lg transition-shadow ">
+      <div className="bg-white p-6 m-6 w-80 rounded-xl shadow-md border border-gray-4x00 transform transition duration-300 hover:scale-105">
         <div className="flex justify-center mb-6">
           <img
             src={props.image}

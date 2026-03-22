@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Students from "./pages/Students";
-import Contact from "./pages/Contact";
+import Course from "./pages/Course";
 import About from "./pages/About";
 import Notfound from "./pages/Notfound";
 
@@ -21,13 +21,13 @@ function App() {
         },
 
         {
-          path: "/about",
-          element: <About />,
+          path: "/course",
+          element: <Course />,
         },
 
         {
-          path: "/contact",
-          element: <Contact />,
+          path: "/about",
+          element: <About />,
         },
 
         {

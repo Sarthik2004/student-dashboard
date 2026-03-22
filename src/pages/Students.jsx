@@ -5,7 +5,7 @@ import studentdata from "../data/Studentdata";
 const Students = () => {
   return (
     <>
-      <div className="flex flex-wrap justify-center bg-gray-100">
+      <div className="flex flex-wrap justify-center bg-gray-900">
         {studentdata.map((item) => {
           return (
             <Studentcard
